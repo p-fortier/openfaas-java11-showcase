@@ -1,0 +1,19 @@
+
+2021/04/06 08:19:14 Started logging stderr from function.
+2021/04/06 08:19:14 Started logging stdout from function.
+Forking - java [-XX:+UseContainerSupport -Dvertx.cacheDirBase=/tmp/.vertx-cache com.openfaas.entrypoint.App]
+2021/04/06 08:19:14 OperationalMode: http
+2021/04/06 08:19:14 Timeouts: read: 10s, write: 10s hard: 10s.
+2021/04/06 08:19:14 Listening on port: 8080
+2021/04/06 08:19:14 Writing lock-file to: /tmp/.lock
+2021/04/06 08:19:14 Metrics listening on port: 8081
+2021/04/06 08:19:19 stderr: WARNING: An illegal reflective access operation has occurred
+2021/04/06 08:19:19 stderr: WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/home/app/entrypoint-1.0/lib/netty-common-4.1.19.Final.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2021/04/06 08:19:19 stderr: WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+2021/04/06 08:19:19 stderr: WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2021/04/06 08:19:19 stderr: WARNING: All illegal access operations will be denied in a future release
+2021/04/06 08:19:27 stdout: Listening on port 8082
+2021/04/06 08:21:48 stdout: null
+2021/04/06 08:21:51 stderr: Apr 06, 2021 8:21:50 AM io.vertx.core.impl.BlockedThreadChecker
+2021/04/06 08:21:51 stderr: WARNING: Thread Thread[vert.x-eventloop-thread-1,5,main[] has been blocked for 2439 ms, time limit is 2000
+2021/04/06 08:21:51 POST / - 200 OK - ContentLength: 21
