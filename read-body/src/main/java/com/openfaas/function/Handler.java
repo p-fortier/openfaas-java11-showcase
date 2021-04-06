@@ -6,6 +6,9 @@ import io.vertx.core.json.JsonObject;
 public class Handler implements io.vertx.core.Handler<RoutingContext> {
 
   public void handle(RoutingContext routingContext) {
+
+    System.out.println(routingContext.getBody());
+
     routingContext.response()
       .putHeader("content-type", "application/json;charset=UTF-8")
       .end(
