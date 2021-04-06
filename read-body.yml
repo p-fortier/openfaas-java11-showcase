@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://134.214.146.67:8080
+functions:
+  read-body:
+    lang: java11-vert-x
+    handler: ./read-body
+    image: read-body:latest
+
